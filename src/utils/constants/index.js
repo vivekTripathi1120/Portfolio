@@ -3,30 +3,24 @@ import {
   creator,
   web,
   javascript,
-  // github,
+  github,
   html,
   css,
   reactjs,
-  // mysql,
-  // psql,
+  mysql,
+  psql,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
   starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  // java,
-  // springboot,
-  // kafka,
+  java,
+  springboot,
+  kafka,
 } from "../../assets";
-
-// import {java,kafka} from "../../assets";
 
 export const navLinks = [
   {
@@ -82,7 +76,8 @@ const technologies = [
 
   {
     name: "SpringBoot",
-    icon: '/src/assets/tech/springboot.png',
+    icon: springboot,
+    // icon: '/src/assets/tech/springboot.png',
   },
   {
     name: "MongoDB",
@@ -90,15 +85,15 @@ const technologies = [
   },
   {
     name: "MySQL",
-    icon: '/src/assets/tech/mysql.png',
+    icon: mysql,
   },
   {
     name: "PostgreSQL",
-    icon: '/src/assets/tech/psql.png',
+    icon: psql,
   },
   {
     name: "Java",
-    icon: '/src/assets/tech/java.png',
+    icon: java,
   },
   {
     name: "git",
@@ -106,11 +101,11 @@ const technologies = [
   },
   {
     name: "github",
-    icon: '/src/assets/tech/github.png',
+    icon: github,
   },
   {
     name: "Kafka",
-    icon: '/src/assets/tech/kafka.png',
+    icon: kafka,
   },
   {
     name: "docker",

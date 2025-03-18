@@ -3,7 +3,6 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -30,13 +29,23 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import java from "./tech/java.png"
+import kafka from "./tech/kafka.png"
+import springboot from "./tech/springboot.png"
+import mysql from "./tech/mysql.png"
+import psql from "./tech/psql.png"
+import tinder from "./tinderClone.webp"
+import vivek from "./vivekPNG.png"
+import jobit1 from "./jobit1.webp"
+import github from "./tech/github.png"
+
+
 export {
   logo,
   backend,
   creator,
   mobile,
   web,
-  github,
   menu,
   close,
   css,
@@ -59,4 +68,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  java, kafka, springboot, mysql, vivek, psql, github, tinder, jobit1
 };

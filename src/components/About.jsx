@@ -5,6 +5,7 @@ import { styles } from "../utils/styles";
 import { services } from "../utils/constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../HOC";
+import { vivek } from "../assets/index";
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -31,7 +32,6 @@ const ServiceCard = ({ index, title, icon }) => {
 };
 
 const About = () => {
-  const vivekPng = "/src/assets/vivekPNG.png";
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -57,7 +57,7 @@ const About = () => {
           className="mt-4 text-[#BFC5B7] text-[17px] max-w-3xl leading-[30px]  "
         >
           <img
-            src={vivekPng}
+            src={vivek}
             alt="Vivek Tripathi"
             // className="w-1/10 h-1/10 object-contain"
             className="object-contain bg-transparent "
