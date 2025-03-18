@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 import{About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components'
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import * as random from "maath/random/dist/maath-random.esm";   
 import TechStack from "./components/TechStack";
 function App() {
@@ -12,6 +12,7 @@ function App() {
    <div className="relative z-0 bg-primary">
     <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
       <Navbar />
+      {/* <Hero /> */}
       <Hero />
     </div>
     <About  />
